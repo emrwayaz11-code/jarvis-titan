@@ -9,7 +9,7 @@ source.include_exts = py,png,jpg,jpeg,kv,atlas,json,txt
 
 version = 1.0
 
-requirements = python3,kivy
+requirements = python3==3.11.9,hostpython3==3.11.9,kivy
 
 orientation = portrait
 fullscreen = 0
@@ -28,7 +28,6 @@ android.archs = arm64-v8a
 
 # Python-for-Android
 p4a.bootstrap = sdl2
-
 
 # Android activity
 android.presplash_color = #000000
